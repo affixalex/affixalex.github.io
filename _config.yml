@@ -1,19 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: The Red Pill
-#email: saepenumera@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Explorations of data science, math, code, and... everything else!
-baseurl: "http://hypoalex.github.io/" # the subpath of your site, e.g. /blog
-url: "http://hypoalex.github.io" # the base hostname & protocol for your site
-twitter_username: hypoalex
-github_username:  hypoalex
+title: Jekyll-Uno
+description: 'Thoughts on data science, math, code, etc.'
+url: 'http://hypoalex.github.io'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Alex Caudill'
+#  email: josh@joshgerdes.com
+  twitter_username: hypoalex
+  facebook_username: evl.alexander
+  github_username:  hypoalex
+  linkedin_username:  hypoalex
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
