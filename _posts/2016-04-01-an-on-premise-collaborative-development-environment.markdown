@@ -43,7 +43,8 @@ Docker configured on your machine to connect to your private Triton
 
 `docker run -d --name jupyter.hub jupyter/jupyterhub jupyterhub`
 
-That's it. You're up and running. Jupyter is no longer limited to Python, so 
+That's pretty much it, although there are some caveats with authentication. 
+I'll have to explore that later. Jupyter is no longer limited to Python, so 
 you can also use Ruby, R, and several other languages if you so choose 
 (although you'll probably need to build your own Docker image for this).
 
