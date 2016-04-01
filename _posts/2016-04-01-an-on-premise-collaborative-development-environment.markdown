@@ -48,10 +48,10 @@ build your own Docker image for this).
 
 That's the general outline! Just food for thought.
 
-[1](https://www.joyent.com/blog/spin-up-a-docker-dev-test-environment-in-60-minutes-or-less)
-[2](https://github.com/Faithlife/sdc-portal)
-[3](https://github.com/joyent/sdc-ufds)
-[4](https://github.com/gitbucket/gitbucket)
-[5](https://github.com/joyent/sdc-docker)
-[6](https://github.com/jupyter/jupyterhub)
-[7](https://github.com/jupyter/notebook)
+[1]:(https://www.joyent.com/blog/spin-up-a-docker-dev-test-environment-in-60-minutes-or-less)
+[2]:(https://github.com/Faithlife/sdc-portal)
+[3]:(https://github.com/joyent/sdc-ufds)
+[4]:(https://github.com/gitbucket/gitbucket)
+[5]:(https://github.com/joyent/sdc-docker)
+[6]:(https://github.com/jupyter/jupyterhub)
+[7]:(https://github.com/jupyter/notebook)
