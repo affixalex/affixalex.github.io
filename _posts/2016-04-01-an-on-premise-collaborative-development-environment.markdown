@@ -37,14 +37,15 @@ all available compute nodes. It isn't actually Linux, but it's close enough.
 Can we put some icing on this cake? Okay.
 
 How about a [multi-user version][6] of [Jupyter Notebook][7] for collaborative, 
-explorative development? The beautiful part about this is that you can just 
-some variation of:
+explorative development? The beautiful part about this is that once you have 
+Docker configured on your machine to connect to your private Triton 
+`DOCKER_HOST` you can just do some variation of:
 
 `docker run -d --name jupyter.hub jupyter/jupyterhub jupyterhub`
 
-Jupyter is no longer limited to Python, so you can also use Ruby, R, and 
-several other languages if you so choose (although you'll probably need to 
-build your own Docker image for this).
+That's it. You're up and running. Jupyter is no longer limited to Python, so 
+you can also use Ruby, R, and several other languages if you so choose 
+(although you'll probably need to build your own Docker image for this).
 
 That's the general outline! Just food for thought.
 
