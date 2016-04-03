@@ -19,9 +19,13 @@ consumer hardware.
 As a footnote, Triton was originally known as SmartDataCenter, so you'll see 
 many references to `sdc` in the context of Triton. Just build a mental regex.
 
-Because the open source version of Triton doesn't include a management 
-interface, we'll have to use the open source [sdc-portal][2] developed by
-[Faithlife](https://faithlife.com/). It's a great solution.
+
+**UPDATE:** I didn't mean to spread FUD! While the open source version of 
+Triton does include an [operations portal][8], it's wort checking out the 
+(also) open source [sdc-portal][2] developed by 
+[Faithlife](https://faithlife.com/). While it hasn't been updated in a while, 
+Faithlife's sdc-portal has some very compelling features and it's definitely 
+worth exploring.
 
 A somewhat little known fact about Triton is that it comes with 
 [an LDAP server][3], which provides a perfect hook for integration with [GitBucket][4]. GitBucket is an open source clone of GitHub and by integrating 
@@ -57,3 +61,4 @@ That's the general outline! Just food for thought.
 [5]:https://github.com/joyent/sdc-docker
 [6]:https://github.com/jupyter/jupyterhub
 [7]:https://github.com/jupyter/notebook
+[8]:https://docs.joyent.com/private-cloud/install/operations-setup
