@@ -53,6 +53,13 @@ languages if you so choose. You are almost certainly going to want to build
 your own custom docker image for Jupyter Hub to support your goals, but this is 
 a pretty simple process. Again, I'll try to provide more detail in another post.
 
+**Why would you bother with any of this?** Well, the only money you'd spend on 
+this environment would be on hardware that you'd own. It's not exactly 
+expensive to develop on the Joyent public cloud or host your private 
+repositories on Github, but if you consider the total cost over the lifetime of 
+a business these things can add up pretty quickly. When you start to run the 
+numbers, there is a very real economic argument in favor of this approach.
+
 That's the general outline! Just food for thought.
 
 [1]:https://www.joyent.com/blog/spin-up-a-docker-dev-test-environment-in-60-minutes-or-less
