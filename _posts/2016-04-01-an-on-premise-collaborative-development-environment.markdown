@@ -21,11 +21,10 @@ many references to `sdc` in the context of Triton. Just build a mental regex.
 
 
 **UPDATE:** I didn't mean to spread FUD! While the open source version of 
-Triton does include an [operations portal][8], it's wort checking out the 
+Triton does include an [operations portal][8], it's worth checking out the 
 (also) open source [sdc-portal][2] developed by 
 [Faithlife](https://faithlife.com/). While it hasn't been updated in a while, 
-Faithlife's sdc-portal has some very compelling features and it's definitely 
-worth exploring.
+Faithlife's sdc-portal has some very compelling features.
 
 A somewhat little known fact about Triton is that it comes with 
 [an LDAP server][3], which provides a perfect hook for integration with [GitBucket][4]. GitBucket is an open source clone of GitHub and by integrating 
