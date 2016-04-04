@@ -20,6 +20,10 @@ There are two issues with this.
 1. Illumos does not currently have NVidia drivers
 2. PCI passthrough in KVM doesn't work
 
+If PCI passthrough worked, we could provision KVM Linux instances through 
+Triton and just use the native Linux NVidia drivers. This would probably be 
+less of an uphill battle than trying to convince NVidia to do anything.
+
 So, what are the issues with PCI passthrough? I believe that all of the systems at [Joyent engineering](https://eng.joyent.com/manufacturing/bom.html) have VT-d support, so we're essentially facing driver issues. In particular...
 
 1. IOMMU support
