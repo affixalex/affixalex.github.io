@@ -24,7 +24,7 @@ Triton does include an [operations portal][8], it's worth checking out the
 (also) open source [sdc-portal][2] developed by 
 [Faithlife](https://faithlife.com/). Although it hasn't been updated in a 
 while, Faithlife's sdc-portal has some very compelling features and I'd 
-encourage anyone interested in such a setup to check it out.
+encourage anyone interested in deploying Triton to check it out.
 
 A somewhat little known fact about Triton is that it comes with 
 [an LDAP server][3], which provides a perfect hook for integration with [GitBucket][4]. GitBucket is an open source clone of GitHub and by integrating 
