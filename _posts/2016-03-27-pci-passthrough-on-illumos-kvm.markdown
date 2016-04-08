@@ -29,7 +29,7 @@ So, what are the issues with PCI passthrough? I believe that all of the systems 
 1. IOMMU support
 2. A pci_stub driver to blacklist the GPUs 
 
-The [IOMMU interfaces](http://garrett.damore.org/2008/09/iommu-comes-to-solaris-x86.html) are present, but the AMD64 code will need a rewrite (according to [@rmustacc](https://twitter.com/rmustacc)). So this isn't an infeasible thing.
+The [IOMMU interfaces](http://garrett.damore.org/2008/09/iommu-comes-to-solaris-x86.html) are present, but the AMD64 code will need a rewrite (according to [@rmustacc](https://twitter.com/rmustacc)). I'm attributing that just to be clear that I wasn't making any value judgements here, but the point is that this isn't an infeasible thing.
 
     <rmustacc> Like anything else at that layer, it's not particularly hard as it
                is detailed.
