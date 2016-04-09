@@ -26,7 +26,7 @@ defaults:
 destination: _site
 paginate: 10
 permalink: /:year/:title/
-markdown: maruku
+markdown: kramdown
 highlighter: rouge
 
 kramdown:
