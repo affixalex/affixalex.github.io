@@ -32,6 +32,8 @@ Let me throw out an axiom here:
 
 `algorithms + data structures = programs`
 
+Let's test some inline math $x$, $y$, $x_1$, $y_1$.
+
 A programming language is just a notation that we use to describe algorithms 
 and data structures and in most cases we're just doing it for money (another 
 abstraction which I won't go into). It's not a reflection on me as a human 
