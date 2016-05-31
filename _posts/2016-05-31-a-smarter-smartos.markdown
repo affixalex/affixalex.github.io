@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A smarter SmartOS?"
-date:   2016-05-31 12:12:58 -0500
+date:   2016-05-31 10:12:58 -0500
 categories: smartos design
 ---
 
