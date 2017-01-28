@@ -3,6 +3,7 @@ layout: post
 title:  "An On-Premise Collaborative Development Environment"
 date:   2016-04-01 8:05:58 -0500
 categories: jekyll update hardware collaborative development
+permalink: /2016/an-on-premise-collaborative-development-environment
 ---
 
 In this post, I'm going to share my thoughts about an on-premises private cloud 
