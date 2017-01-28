@@ -44,7 +44,7 @@ a blue ocean to dominate.
 Ideally, you won't even have any competitors. The best companies create
 entirely new markets, so that should be your aspiration.
 
-##Lawyer Up
+## Lawyer Up
 
 Who likes lawyers? I can't stand them, but you need one! The trick is to find
 one that is not a spectacular asshole. Try to find just an average asshole.
