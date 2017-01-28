@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
+
+  <div class="container">
     {% include header.html %}
 
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
-      </div>
-
-      {% include footer.html %}
+    <div class="post-container">
+      {{ content }}
     </div>
-  </body>
-</html>
+
+    {% include footer.html %}
+
+  </div>
+
+</body>

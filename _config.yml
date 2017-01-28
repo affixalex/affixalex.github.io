@@ -1,39 +1,24 @@
-# Site settings
-title: The Blue Pill
-description: 'Thoughts on data science, math, code, etc.'
-url: 'http://hypoalex.github.io'
-baseurl: '/'
-google_analytics: 'UA-57226914-3'
-# disqus_shortname: 'your-disqus-name'
-
+# Site Settings
+title:               The Blue Pill
+tagline:             non-controversial thoughts on everything!
+description:
+baseurl:            #"/"
+url:                #"https://hypoalex.github.io"
+github:
+  url:               "https://hypoalex.github.io"
 author:
-  name: 'Alex Caudill'
-#  email: josh@joshgerdes.com
-  twitter_username: hypoalex
-  facebook_username: evl.alexander
-  github_username:  hypoalex
-  linkedin_username:  hypoalex
+  name:              "Alex Caudill"
+  email:             "alex@memphisinsights.com"
+  twitter:           "hypoalex"
+  instagram:         "memphisinsights"
+  github:            "hypoalex"
+  facebook:          "evl.alexander"
+  linkedin:          "hypoalex"
+paginate:            5
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
