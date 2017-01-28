@@ -5,11 +5,7 @@ date:   2017-01-28 6:12:58 -0500
 categories: software entrepreneurship
 ---
 
-Here are some thoughts on starting a company. 
-
-# Notes on Starting a Business
-
-These are some loose notes about getting started!
+Here are some thoughts on starting a company!
 
 ## Select Your Market Carefully
 
