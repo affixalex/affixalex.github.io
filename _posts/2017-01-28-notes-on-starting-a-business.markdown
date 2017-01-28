@@ -71,7 +71,7 @@ Set a reasonable goal. Then double it... and then double it again.
 
 Now you're in the right ballpark.
 
-# Keep Books and Document Carefully
+## Keep Books and Document Carefully
 
 Althought a business may not be built to sell, that should certainly be a 
 thought. Laborious notes are incredibly helpful to everyone involved!
